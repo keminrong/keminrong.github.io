@@ -1,0 +1,53 @@
+@charset "utf-8";
+*{padding:0;margin:0;list-style:none;text-decoration:none}
+body,html{font-family:'Microsoft YaHei','Helvetica Neuindex.lesse','Hiragino Sans GB',STHeiti,Helvetica,Arial,sans-serif;font-size:14px;position:relative}
+a,a:active,a:hover{text-decoration:none}
+.wrap{
+	background-color: #fff;
+	padding-top: 30px;
+}
+.wrap .title{
+	font-size: 20px;
+	text-align: center;
+	color: #333;
+	margin-bottom: 50px;
+}
+.wrap .student-info{
+	margin-bottom: 60px;
+}
+.wrap .student-info ul li{
+	height: 50px;
+	line-height: 50px;
+	color: #333;
+	margin-left: 15px;
+	padding-right: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.wrap .student-info ul li a{
+	display: block;
+	color: #333;
+	font-size: 16px;
+}
+.wrap .student-info ul li a span{
+	float: right;
+	font-size: 20px;
+}
+.wrap .student-info ul li input{
+	height: 48px;
+	line-height: 48px;
+	border:0;
+	width: 100%;
+	font-size: 16px;
+}
+.wrap .next{
+	display: block;
+	width: 60%;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	color: #e42525;
+	border: 1px solid #e42525;
+	font-size: 20px;
+	border-radius: 4px;
+}
